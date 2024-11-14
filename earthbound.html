@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!-- Dont inspect me -->
+<!-- Stop inspecting me, asshole.-->
 <html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: blob:">
-  <title>Some battle effects</title>
+  <title>Earthbound</title>
   <style>
     body {
       color: #ffffff;
@@ -142,7 +142,7 @@
     
   </style>
   <meta name="theme-color" content="#000000">
-  
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAoCAMAAADaOGodAAAAFVBMVEUAgIAwICAAkHBQcGCQoIDw8PAAsIDfYKvJAAAAAXRSTlMAQObYZgAAAPNJREFUeF590VGOwzAMQ8GSdHL/Iy8hupJhoPu+Wg+sKMhnh/S5CjFtv+l1208zPbZW4rSXz/Mw+deFVjwhGK1jRj5Bl7UGeSUpCvBfvIOVpeCtOQjqxcFwmfxVM7bU6tAg+ZZHSDVG7SWxNWgVO9mM3AinDjbpWJdCt2ylKDNSjjTIrROtZdRKksqCWXSpiYOxOs/UsihDe2hMX62DXiZmTDDPLrHSZrlI/eGBwi5Tsm7CK+UtU6Y2zouoZgqDlvNFKJCj5lzaKzHYPK3+2NM8Qb+wpjN4W3ayjs3jJJsjWppyzQiUDuQSHVIjLEVC13enoT9JgghRg9EICwAAAABJRU5ErkJggg==">
 </head>
 <body>
   <div id="app"></div>
@@ -161,7 +161,7 @@
     <noscript>Enable JavaScript</noscript>
     
     
-    <div class="progress-bar-outer"><div class="progress-bar-inner" id="loading-inner"></div></div>
+    
   </div>
 
   <div id="error" class="screen" hidden>
@@ -234,8 +234,8 @@
       if (vm.renderer.setUseHighQualityRender) vm.renderer.setUseHighQualityRender(false);
       if (vm.setRuntimeOptions) vm.setRuntimeOptions({
         fencing: false,
-        miscLimits: true,
-        maxClones: 300,
+        miscLimits: false,
+        maxClones: 9999999999,
       });
       if (vm.setCompilerOptions) vm.setCompilerOptions({
         enabled: true,
