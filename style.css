@@ -10,24 +10,29 @@
     justify-content:center;
 }
 
+#sidebar{
+    width: 900px;
+    height: 600px;
+    background: wheat;
+    max-width: 900px;
+    margin:auto;
+
+    display: flex;
+    justify-items: left;
+}
+
 body{
     background-image:url("assets/background.png");
 }
-h1{
-    color:rgb(74, 198, 255);
-    font-family: "papyrus", sans-serif;
-    background-color:beige;
-}
-p{
-    color:red;
-    background-color:beige;
-    font-size:xx-large;
-}
-#p1{
-    color:rgb(225, 0, 255);
-}
-#t{
-    color:rgb(0, 13, 255);
-    font-family: "Comic Sans MS", sans-serif;
-    background-color:beige;
+
+#hit{
+    width: 460px;
+    height: 90px;
+
+    max-width: 700px;
+    margin:auto;
+
+    display: flex;
+    align-items:center;
+    justify-content:center;
 }
