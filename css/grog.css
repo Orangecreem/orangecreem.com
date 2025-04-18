@@ -8,8 +8,8 @@ body, div, main, section, article {
 }
 
 /* universal background color */
-body {
-  background-color: #DA5437; 
+body{
+  background-image:url("../assets/bog.png");
 }
 
 /* header image */
@@ -29,7 +29,7 @@ header img {
 
 /* header font */
 #showComic, header, h1, h2, h3, h4, h5 {
-  font-family: 'Cherry Cream Soda', cursive;
+  font-family: 'impact';
 }
 
 /* body font */
@@ -86,11 +86,16 @@ a:hover {
 
 /* HEADER */
 header #nav {
-  background-color: #ffffff;
-  outline: 3px solid #000000;
-  font-size: 20px;
-  width: 98%;
+  background-color: transparent;
+  font-size: 25px;
+  width: 30%;
   margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px 0px;
+  text-align: center;
 }
 
 /* HOMEPAGE */
@@ -101,12 +106,12 @@ header #nav {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  padding: 10px 0px;
+  padding: 0px 0px;
 }
 .comicNav img {
-  width: 80px;
+  width: 25px;
   max-width: 98%;
-  padding-right: 30px;
+  padding-right: 25px;
 }
 
 /* style comic page image */
