@@ -9,7 +9,7 @@ body, div, main, section, article {
 
 /* universal background color */
 body{
-  background-image:url("../assets/bog.png");
+  background-image:url("../img/bog.png");
 }
 
 /* header image */

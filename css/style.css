@@ -13,7 +13,7 @@
 #sidebar{
     width: 900px;
     height: 100px;
-    background: wheat;
+    background: white;
     max-width: 900px;
     margin:auto;
 
@@ -22,7 +22,8 @@
 }
 
 body{
-    background-image:url("../assets/background.png");
+    background-image:url("../img/background.png");
+    color: white;
 }
 
 #hit{
