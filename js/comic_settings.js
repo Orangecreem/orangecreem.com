@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 8; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 9; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -64,7 +64,7 @@ const pgData = [
         altText: "Here's some more alt text!",
         imageFiles: 1,
         authorNotes: `
-             <p>grog</p>
+             <p>He shrunk becuase he got crushed.</p>
             `,
     },
     {
@@ -74,7 +74,7 @@ const pgData = [
         altText: "Here's even more alt text!",
         imageFiles: 1,
         authorNotes: `
-            <p>Sed lectus magna, dignissim eu sapien quis, euismod pulvinar diam. In odio massa, auctor blandit dolor id, varius ultricies lacus. Suspendisse sed libero vel leo dictum consectetur. In fringilla elit sit amet placerat varius. Duis vel lacus ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Proin eleifend metus eu ex elementum venenatis. Curabitur sodales, ipsum placerat ornare convallis, sem eros convallis felis, vel efficitur erat ante id diam.</p>
+            <p>Sorry this one is low quality</p>
             `,
     },
     {
@@ -84,7 +84,7 @@ const pgData = [
         altText: "So much alt text...",
         imageFiles: 1,
         authorNotes: `
-            <p>Sed lectus magna, dignissim eu sapien quis, euismod pulvinar diam. In odio massa, auctor blandit dolor id, varius ultricies lacus. Suspendisse sed libero vel leo dictum consectetur. In fringilla elit sit amet placerat varius. Duis vel lacus ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Proin eleifend metus eu ex elementum venenatis. Curabitur sodales, ipsum placerat ornare convallis, sem eros convallis felis, vel efficitur erat ante id diam.</p>
+            <p>It says "blue goo", sorry it's so low quality</p>
             `,
     },
     {
@@ -94,7 +94,7 @@ const pgData = [
         altText: "Here's even more alt text!",
         imageFiles: 1,
         authorNotes: `
-            <p>Sed lectus magna, dignissim eu sapien quis, euismod pulvinar diam. In odio massa, auctor blandit dolor id, varius ultricies lacus. Suspendisse sed libero vel leo dictum consectetur. In fringilla elit sit amet placerat varius. Duis vel lacus ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Proin eleifend metus eu ex elementum venenatis. Curabitur sodales, ipsum placerat ornare convallis, sem eros convallis felis, vel efficitur erat ante id diam.</p>
+            <p>That guy had some friends</p>
             `,
     },
     {
@@ -104,7 +104,7 @@ const pgData = [
         altText: "What are you",
         imageFiles: 1,
         authorNotes: `
-            <p>Sed lectus magna, dignissim eu sapien quis, euismod pulvinar diam. In odio massa, auctor blandit dolor id, varius ultricies lacus. Suspendisse sed libero vel leo dictum consectetur. In fringilla elit sit amet placerat varius. Duis vel lacus ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Proin eleifend metus eu ex elementum venenatis. Curabitur sodales, ipsum placerat ornare convallis, sem eros convallis felis, vel efficitur erat ante id diam.</p>
+            <p>When we get here</p>
             `,
     },
     {
@@ -114,17 +114,27 @@ const pgData = [
         altText: "How Long Has it Been",
         imageFiles: 1,
         authorNotes: `
-            <p>Sed lectus magna, dignissim eu sapien quis, euismod pulvinar diam. In odio massa, auctor blandit dolor id, varius ultricies lacus. Suspendisse sed libero vel leo dictum consectetur. In fringilla elit sit amet placerat varius. Duis vel lacus ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla facilisi. Proin eleifend metus eu ex elementum venenatis. Curabitur sodales, ipsum placerat ornare convallis, sem eros convallis felis, vel efficitur erat ante id diam.</p>
+            <p>The fireflies have a question</p>
             `,
     },
     {
         pgNum: 8,
         title: "You can go",
         date: writeDate(2025, 4, 18),
-        altText: "How Long Has it Been",
+        altText: "You can go",
         imageFiles: 1,
         authorNotes: `
             <p>The next grog comic</p>
+            `,
+    },
+    {
+        pgNum: 9,
+        title: "4/20 Special",
+        date: writeDate(2025, 4, 20),
+        altText: "4/20 Special",
+        imageFiles: 1,
+        authorNotes: `
+            <p>Happy 4/20 everybody.</p>
             `,
     },
 ];
