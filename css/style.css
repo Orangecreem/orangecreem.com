@@ -37,6 +37,7 @@ header #nav {
 body{
     background-image:url("../img/background.png");
     color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #hit{
