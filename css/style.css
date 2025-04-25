@@ -10,6 +10,19 @@
     justify-content:center;
 }
 
+header #nav {
+    background-color: transparent;
+    font-size: 25px;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px 0px;
+    text-align: center;
+  }
+
 #sidebar{
     width: 900px;
     height: 100px;

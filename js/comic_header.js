@@ -5,10 +5,10 @@ document.querySelector(".writeHeader").innerHTML = `
         <a href="GrogComic.html"><img src="./img/logo.png" alt="" /></a> 
 
         <div id="nav">
-            <a href="GrogComic.html"><div class="nav-item"><img src="../img/read.png" alt="read"></a><span>Read</span></div>
-            <a href="archive.html"><div class="nav-item"><img src="../img/archive.png" alt="archive"></a><span>Archive</span></div> 
-            <a href="about.html"><div class="nav-item"><img src="../img/about.png" alt="about"></a><span>About</span></div>
-            <a href="index.html"><div class="nav-item"><img src="../img/home.png" alt="home"></a><span>Home</span></div>
+            <a href="GrogComic.html"><div><img src="../img/read.png" alt="read"></a><span>Read</span></div>
+            <a href="archive.html"><div><img src="../img/archive.png" alt="archive"></a><span>Archive</span></div> 
+            <a href="about.html"><div><img src="../img/about.png" alt="about"></a><span>About</span></div>
+            <a href="index.html"><div><img src="../img/home.png" alt="home"></a><span>Home</span></div>
         </div>
     </header>
 `;
